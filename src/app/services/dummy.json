@@ -1,0 +1,1841 @@
+{
+  "header": {
+    "message": null
+  },
+  "logo": {
+    "uri": "[[${account.logoUri}]]"
+  },
+  "config": {
+    "name": "5 Supported language ",
+    "brandName": "",
+    "accountId": "abc123",
+    "version": 1.1,
+    "defaultLocale": "en",
+    "verifyEmail": {
+      "type": "REQUIRED",
+      "nameId": "00000000-0000-0000-0000-000000001008",
+      "rightLabel": {
+        "key": "00000000-0000-0000-0000-000000001008",
+        "value": "Include email verification",
+        "type": "NORMAL"
+      }
+    },
+    "verifyIdentity": null
+  },
+  "fields": [
+    {
+      "id": "00000000-0000-0000-0000-000000001001",
+      "title": {
+        "key": "00000000-0000-0000-0000-000000001001",
+        "value": "I am",
+        "type": "NORMAL"
+      },
+      "required": false,
+      "type": "select",
+      "permanent": true,
+      "notStored": false,
+      "optionLabels": [
+        {
+          "id": "00000000-0000-0000-0000-000000003001",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000003001",
+            "value": "Customer",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000003002",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000003002",
+            "value": "Employee",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000003003",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000003003",
+            "value": "Other",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        }
+      ],
+      "defaultKey": null,
+      "noneLabel": null,
+      "selectType": "DATASUBJECT",
+      "idToLabelReplacer": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000001002",
+      "title": {
+        "key": "77cf4980-0062-4ef9-a5e6-fc3de50dc995",
+        "value": "First Name",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "text",
+      "permanent": true,
+      "notStored": false,
+      "maxLength": 100
+    },
+    {
+      "id": "7ede730a-2701-45d8-9416-087f4261f44d",
+      "title": {
+        "key": "7ede730a-2701-45d8-9416-087f4261f44d",
+        "value": "Last Name",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "text",
+      "permanent": false,
+      "notStored": false,
+      "maxLength": 100
+    },
+    {
+      "id": "3c9c41ae-5143-47d4-b1cb-850eb21e1e97",
+      "title": {
+        "key": "3c9c41ae-5143-47d4-b1cb-850eb21e1e97",
+        "value": "Street address",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "text",
+      "permanent": false,
+      "notStored": false,
+      "maxLength": 100
+    },
+    {
+      "id": "9051ca05-71b9-46d3-978b-075d631ffd05",
+      "title": {
+        "key": "9051ca05-71b9-46d3-978b-075d631ffd05",
+        "value": "City",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "text",
+      "permanent": false,
+      "notStored": false,
+      "maxLength": 100
+    },
+    {
+      "id": "8e806e9b-05cf-45a6-a983-e03f6593286c",
+      "title": {
+        "key": "8e806e9b-05cf-45a6-a983-e03f6593286c",
+        "value": "State",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "text",
+      "permanent": false,
+      "notStored": false,
+      "maxLength": 100
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000001004",
+      "title": {
+        "key": "00000000-0000-0000-0000-000000001004",
+        "value": "Resident of",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "select",
+      "permanent": true,
+      "notStored": false,
+      "optionLabels": [
+        {
+          "id": "AS_AF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_AX",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_AL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_DZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_AS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_AD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_AO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_AI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AN_AQ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_AG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_AR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_AM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_AW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_AU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_AT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_AZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_BS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_BH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_BD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_BB",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_BY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_BE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_BZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_BJ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_BM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_BT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_BO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_BQ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_BA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_BW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_BV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_BR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_IO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_VG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_BN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_BG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_BF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_BI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_KH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_CM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_CA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_CV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_KY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_CF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_TD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_CL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_CN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_CX",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_CC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_CO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_KM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_CK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_CR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_HR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_CU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_CW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_CY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_CZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_DK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_DJ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_DM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_DO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_CD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_EC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_EG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_SV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_GQ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ER",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_EE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ET",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_FK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_FO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_FJ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_FI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_FR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_GF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_PF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AN_TF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_GA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_GM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_GE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_DE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_GH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_GI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_GR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_GL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_GD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_GP",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_GU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_GT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_GG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_GN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_GW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_GY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_HT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_HM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_HN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_HK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_HU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_IS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_IN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_ID",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_IR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_IQ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_IE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_IM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_IL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_IT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_CI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_JM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_JP",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_JE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_JO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_KZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_KE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_KI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_KP",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_XK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_KW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_KG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_LA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_LV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_LB",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_LS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_LR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_LY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_LI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_LT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_LU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_MO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_MK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_MG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_MW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_MY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_MV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ML",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_MT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_MH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_MQ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_MR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_MU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_YT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_MX",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_FM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_MD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_MC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_MN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_ME",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_MS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_MA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_MZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_MM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_NA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_NR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_NP",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_NL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_NC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_NZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_NI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_NE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_NG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_NU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_NF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_MP",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_NO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_OM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_PK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_PW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_PS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CA_PA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_PG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_PY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_PE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_PH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_PN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_PL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_PT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_PR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_QA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_CG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_RE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_RO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_RU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_RW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_BL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_KN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_LC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_MF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_PM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_VC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_WS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_SM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ST",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_SA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_RS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_SG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_SX",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_SK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_SI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_SB",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ZA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_GS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_KR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_ES",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_LK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_SR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_SJ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_SZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_SE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_CH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_SY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_TW",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_TJ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_TZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_TH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_TL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_TG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_TK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_TO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_TT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_TN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_TR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_TM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_TC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_TV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_UG",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_UA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_AE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_GB",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_AK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_AL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_AR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_AZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_CA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_CO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_CT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_DC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_DE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_FL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_GA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_HI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_IA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_ID",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_IL",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_IN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_KS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_KY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_LA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_ME",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MO",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MS",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_MT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_ND",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NJ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_NY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_OH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_OK",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_OR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_PA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_PR",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_RI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_SC",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_SD",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_TN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_TX",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_UT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_VA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_VT",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_WA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_WI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_WV",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "NA_US_WY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_UM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "CB_VI",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_UY",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_UZ",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_VU",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "EU_VA",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "SA_VE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_VN",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "OC_WF",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_EH",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AS_YE",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ZM",
+          "label": null,
+          "hasToConfirm": false
+        },
+        {
+          "id": "AF_ZW",
+          "label": null,
+          "hasToConfirm": false
+        }
+      ],
+      "defaultKey": null,
+      "noneLabel": null,
+      "selectType": "COUNTRY",
+      "idToLabelReplacer": "[[${@formHelper.location('%%%%', locale)}]]"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000001003",
+      "title": {
+        "key": "00000000-0000-0000-0000-000000001003",
+        "value": "Email",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "email",
+      "permanent": true,
+      "notStored": false,
+      "maxLength": 100
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000001005",
+      "title": {
+        "key": "00000000-0000-0000-0000-000000001005",
+        "value": "Type of Request",
+        "type": "NORMAL"
+      },
+      "required": true,
+      "type": "select",
+      "permanent": true,
+      "notStored": false,
+      "optionLabels": [
+        {
+          "id": "00000000-0000-0000-0000-000000004001",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004001",
+            "value": "Access My Information",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000004002",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004002",
+            "value": "Correct or Update My Information",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000004003",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004003",
+            "value": "Delete My Information",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000004004",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004004",
+            "value": "Restrict Use of My Information",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000004005",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004005",
+            "value": "Opt-out or Unsubscribe",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000004006",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004006",
+            "value": "Transfer My Information",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000004007",
+          "label": {
+            "key": "00000000-0000-0000-0000-000000004007",
+            "value": "Who Has Received My Information",
+            "type": "NORMAL"
+          },
+          "hasToConfirm": false
+        }
+      ],
+      "defaultKey": "none",
+      "noneLabel": {
+        "key": "00000000-0000-0000-0000-000000004000",
+        "value": "--Select an option now--",
+        "type": "NORMAL"
+      },
+      "selectType": "REQUEST",
+      "idToLabelReplacer": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000001006",
+      "title": {
+        "key": "8808976d-c8b0-429d-be0d-d1189341f50f",
+        "value": "Comment (max 550 characters)By submitting this request, I am confirming the following:By submitting this request, I am confirming the following:By submitting this request, I am confirming the following:By submitting this request, I am confirming the following:By submitting this request, I am confirming the following:By submitting this request, I am confirming the following:",
+        "type": "NORMAL"
+      },
+      "required": false,
+      "type": "textarea",
+      "permanent": true,
+      "notStored": false,
+      "maxLength": 550
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000001007",
+      "title": null,
+      "required": true,
+      "type": "checkbox",
+      "permanent": true,
+      "notStored": false,
+      "rightLabel": {
+        "key": "00000000-0000-0000-0000-000000001101",
+        "value": "By submitting this request, I am confirming the following: <br/> (1) <strong>Accuracy</strong>: the information I have provided is true and accurate; (2) <strong>TrustArc role</strong>: that I understand the service is provided by TrustArc on behalf of [[${account.legalName}]] and that once TrustArc provides my request to [[${account.legalName}]], TrustArc will not retain a record of my request; (3) <strong>Privacy</strong>: that I understand the information will be handled by TrustArc in accordance with its <a target='_blank' href='[[${config.privacyPolicyUri}]]'>Privacy Policy</a> and by [[${account.legalName}]] in accordance with its <a target='_blank' href='[[${account.privacyPolicyUri}]]'>Privacy Policy</a>; (4) <strong>Contact</strong>: that [[${account.legalName}]] has the right to contact me to verify my identity and to process this request.",
+        "type": "HTML"
+      }
+    },
+    {
+      "id": "7685a102-3332-4ff8-8501-72f820575d57",
+      "title": {
+        "key": "7685a102-3332-4ff8-8501-72f820575d57",
+        "value": "5-digit zip code",
+        "type": "NORMAL"
+      },
+      "required": false,
+      "type": "static",
+      "permanent": false,
+      "notStored": false,
+      "rightLabel": {
+        "key": "91f4b33d-ad3a-4aa2-847d-b979578b0cb7",
+        "value": "<ul><li>sdfasdf</li></ul>",
+        "type": "HTML"
+      }
+    },
+    {
+      "id": "045425cc-1963-46dd-9bc8-0cde08fec2c4",
+      "title": {
+        "key": "045425cc-1963-46dd-9bc8-0cde08fec2c4",
+        "value": "testset",
+        "type": "NORMAL"
+      },
+      "required": false,
+      "type": "checkbox",
+      "permanent": false,
+      "notStored": false,
+      "rightLabel": {
+        "key": "b8d7a605-9beb-4b97-aa09-77b2c53aced9",
+        "value": "<p>zzzzz</p>",
+        "type": "HTML"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "name": "reset",
+      "title": {
+        "key": "00000000-0000-0000-0000-000000005001",
+        "value": "Reset",
+        "type": "NORMAL"
+      }
+    },
+    {
+      "name": "submit",
+      "title": {
+        "key": "00000000-0000-0000-0000-000000005002",
+        "value": "Submit",
+        "type": "NORMAL"
+      }
+    }
+  ]
+}

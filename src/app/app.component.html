@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-12 text-center">
+      <h1>JSONPath Expression Playground</h1>
+    </div>
+
+    <div class="col-md-12">
+      <pre
+        #jsonViewer
+        style="
+          height: 600px;
+          max-width: 900px;"
+        class="
+          col
+          overflow-auto
+          mx-auto
+          p-3
+          border
+          border-secondary
+          rounded
+          bg-dark
+          text-white
+        "
+      >{{ sampleText ?  (sampleText | json) : (dummyData | json) }}
+      </pre>
+    </div>
+
+
+    <div class="col-md-12 mx-auto text-white">
+      <div class="input-group mb-3 mx-auto" style="width: 900px">
+        <input
+          type="text"
+          class="form-control text-black"
+          [(ngModel)]="query"
+          (ngModelChange)="queryChange($event)"
+        />
+      </div>
+    </div>
+    <div class="col-md-12 text-center" *ngIf="error">
+      <p class="text-danger">Invalid Query</p>
+    </div>
+  </div>
+</div>
